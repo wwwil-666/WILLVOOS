@@ -1,0 +1,35 @@
+
+body{
+    box-sizing: border-box;
+    font-family: "Lexend-Regular", sans-serif;
+}
+
+
+/*nav bar--------------------------*/
+.nav-bar-home{
+    background:  #82A0EA;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.imagem-logo-nav-bar{
+    width: 300px;
+    height: 79px;
+}
+.menu-home{
+    background-color: #CBDAFF;
+    width: auto;
+    height: auto;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 15px 5px 15px;
+}
+.ajust-menu-home > a{
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+}
+
