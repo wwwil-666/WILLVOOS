@@ -11,6 +11,7 @@ body{
     width: 100%;
     display: flex;
     flex-direction: row;
+    margin-bottom: 40px;
 }
 .imagem-logo-nav-bar{
     width: 300px;
@@ -33,3 +34,32 @@ body{
     font-weight: 400;
 }
 
+
+
+/*slogan-----------------------------*/
+.ajust-linha-slogan{
+    margin: 0px;
+}
+.alinhamento-slogan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+.alinhamento-slogan > h1{
+    color: #ffffff;
+    text-align: left;
+    font-size: 64px;
+    line-height: 125.67%;
+    letter-spacing: 0.11em;
+    font-weight: 900;
+    position: absolute;
+    left: 129px;
+    top: 300px;
+    width: 754px;
+  }
+.imagem-slogan{
+    border-radius: 0px;
+    width: 1300px;
+    height: 642px;
+}
