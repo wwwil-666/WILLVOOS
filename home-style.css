@@ -63,3 +63,47 @@ body{
     width: 1300px;
     height: 642px;
 }
+
+
+
+
+/*div destinos populares------------*/
+.destinos-populares{
+    margin-top: 250px;
+}
+.alinhamento-introducao-destinos-populares{
+    margin: 0px 0px 50px 0px;
+    padding: 0px;
+}
+.introducao-destinos-populares {
+    padding: 0px 0px 0px 129px;
+}
+.introducao-destinos-populares > h2{
+    color: #000000;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+}
+.introducao-destinos-populares > h3{
+    color: #000000;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+}
+/**/
+.destinos-populares-cont{
+    margin: 0px 129px 0px 129px;
+}
+.alinhamento-destpop-cont-text > p{
+    color: #000000;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.imagem-destinos-populares{
+    border-radius: 20px;
+    width: 351px;
+    height: 173px;
+}
+
