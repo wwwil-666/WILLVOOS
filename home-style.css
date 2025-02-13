@@ -70,6 +70,8 @@ body{
 /*div destinos populares------------*/
 .destinos-populares{
     margin-top: 250px;
+    background-color: #abbffd6c;
+    padding: 50px;
 }
 .alinhamento-introducao-destinos-populares{
     margin: 0px 0px 50px 0px;
@@ -106,6 +108,104 @@ body{
     width: 351px;
     height: 173px;
 }
+
+
+
+
+
+/*div descubra mais campo3*/
+.descubra-mais{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+.titulo-texto-campo3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 40px 0px;
+}
+.titulo-campo3 > h2{
+    color: #000;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+.texto-campo3{
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+/**/
+
+.texto1-img1-descubra-mais > h3{
+    color: #ffffff;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 900;
+    position: sticky;
+    top: 2400px;
+    padding: 0px 20px 20px 40px;
+}
+.imagem1-campo3{
+    border-radius: 20px 20px 0px 0px;
+    width: 323px;
+    height: 371px;
+}
+.texto2-img2-descubra-mais{
+    margin-right: 30px;
+}
+.texto2-img2-descubra-mais > h3{
+    color: #ffffff;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 900;
+    position: sticky;
+    top: 2415px;
+    padding: 0px 20px 20px 40px;
+}
+.imagem2-campo3{
+    border-radius: 20px 20px 0px 0px;
+    width: 435px;
+    height: 589px;
+}
+.texto3-img3-descubra-mais > h3{
+    color: #ffffff;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 900;
+    position: sticky;
+    top: 2400px;
+    padding: 0px 20px 20px 40px;
+}
+.imagem3-campo3{
+    border-radius: 20px 20px 0px 0px;
+    width: 323px;
+    height: 448px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
