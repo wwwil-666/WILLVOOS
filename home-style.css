@@ -3,7 +3,9 @@ body{
     box-sizing: border-box;
     font-family: "Lexend-Regular", sans-serif;
 }
-
+a{
+    text-decoration: none;
+}
 
 /*nav bar--------------------------*/
 .nav-bar-home{
@@ -147,13 +149,20 @@ body{
     text-align: center;
 }
 /**/
-
+.alinhamento-texto-img-descubra-mais{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 90px 0px 90px;
+    margin: 0px;
+}
 .texto1-img1-descubra-mais{
-    margin-right: 30px;
+    margin-right: 20px;
     margin-left: 30px;
     padding: 0px;
 }
-.texto1-img1-descubra-mais > h3{
+.texto1-img1-campo3{
     color: #ffffff;
     text-align: left;
     font-size: 24px;
@@ -173,7 +182,7 @@ body{
     margin-left: 30px;
     padding: 0px;
 }
-.texto2-img2-descubra-mais > h3{
+.texto2-img2-campo3{
     color: #ffffff;
     text-align: left;
     font-size: 24px;
@@ -193,7 +202,7 @@ body{
     margin-left: 30px;
     padding: 0px;
 }
-.texto3-img3-descubra-mais > h3{
+.texto3-img3-campo3{
     color: #ffffff;
     text-align: left;
     font-size: 24px;
@@ -242,13 +251,15 @@ body{
     margin-top: 300px;
 }
 .alinhamento-cont-footer{
+    display: flex;
+    justify-items: center;
     margin: 0px 0px 40px 0px;
 }
 .links-menu-footer{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .links-menu-footer > a{
     color: #000000;
@@ -256,6 +267,7 @@ body{
     font-size: 16px;
     font-weight: 400;
     text-decoration: none;
+    margin: 0px 40px 0px 40px;
 } 
 .icons-footer{
     display: flex;
@@ -279,4 +291,4 @@ body{
     font-size: 16px;
     font-weight: 400;
     margin: 0px;
-
+}
