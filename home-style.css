@@ -37,31 +37,36 @@ body{
 
 
 /*slogan-----------------------------*/
-.ajust-linha-slogan{
-    margin: 0px;
-}
-.alinhamento-slogan{
+.campo-slogan{
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 0px;
 }
-.alinhamento-slogan > h1{
+.alinhamento-conteudo-slogan{
+    margin: 0px;
+}
+.conteudo-slogan{
+    margin: 30px;
+    padding: 0px;
+}
+.conteudo-slogan > h1{
     color: #ffffff;
     text-align: left;
-    font-size: 64px;
+    font-size: 4rem;
     line-height: 125.67%;
     letter-spacing: 0.11em;
     font-weight: 900;
     position: absolute;
-    left: 129px;
-    top: 300px;
-    width: 754px;
-  }
+    top: 360px;
+    padding: 0px 20px 20px 40px;
+}
 .imagem-slogan{
-    border-radius: 0px;
+    padding: 0px;
     width: 1300px;
     height: 642px;
+    overflow: visible;
 }
 
 
@@ -143,6 +148,11 @@ body{
 }
 /**/
 
+.texto1-img1-descubra-mais{
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 0px;
+}
 .texto1-img1-descubra-mais > h3{
     color: #ffffff;
     text-align: left;
@@ -156,9 +166,12 @@ body{
     border-radius: 20px 20px 0px 0px;
     width: 323px;
     height: 371px;
+    padding: 0px;
 }
 .texto2-img2-descubra-mais{
     margin-right: 30px;
+    margin-left: 30px;
+    padding: 0px;
 }
 .texto2-img2-descubra-mais > h3{
     color: #ffffff;
@@ -173,6 +186,12 @@ body{
     border-radius: 20px 20px 0px 0px;
     width: 435px;
     height: 589px;
+    padding: 0px;
+}
+.texto3-img3-descubra-mais{
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 0px;
 }
 .texto3-img3-descubra-mais > h3{
     color: #ffffff;
@@ -187,6 +206,7 @@ body{
     border-radius: 20px 20px 0px 0px;
     width: 323px;
     height: 448px;
+    padding: 0px;
 }
 
 
@@ -259,6 +279,4 @@ body{
     font-size: 16px;
     font-weight: 400;
     margin: 0px;
-
-}
 
