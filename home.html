@@ -19,36 +19,33 @@
 </head>
 <body>
     <!--div nav bar-->
-    <div class="conteiner-fluid">
-        <nav class="nav-bar-home navbar navbar-expand-lg">
-            <div class="container-fluid justify-content-evenly">
-              <a class="navbar-brand" href="#">
-                <img src="./img/img_geral/LOGO.png" alt="logo-willvoos" class="img-fluid imagem-logo-nav-bar">
-              </a>
+    
+        <nav class="ajust-navbar navbar navbar-expand-lg bg-body-tertiary">
+            <div class="nav-bar   container-fluid">
+                <a class="ajust-imagem-logo-nav-bar navbar-brand" href="#">
+                    <img class="imagem-logo-nav-bar" src="./img/img_geral/LOGO.png" alt="willvoos">
+                </a>
 
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
 
-              <div class="menu-home collapse navbar-collapse" id="navbarNavAltMarkup">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                <div class="ajust-menu-home navbar-nav">
-                  <a class="nav-link" href="#">HOME</a>
-                  <a class="nav-link" href="#">DESTINOS INTERNACIONAIS</a>
-                  <a class="nav-link" href="#">OFERTAS DE VOOS</a>
-                  <a class="nav-link" href="#">DESTINOS NACIONAIS</a>
-                  <a class="nav-link" href="#">ACOMODAÇÕES</a>
+                <div class="ajust-space-links   collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="space-links  navbar-nav">
+                        <a class="links-menu nav-link active" aria-current="page" href="./home.html">Home</a>
+                        <a class="links-menu nav-link" href="#">Voos</a>
+                        <a class="links-menu nav-link" href="#">Pacotes Turísticos</a>
+                        <a class="links-menu nav-link" href="#">Acomodações</a>
+                    </div>
                 </div>
-
-              </div>
             </div>
         </nav>
-    </div>
+    
+
 
 
     <!--div slogan-->
-
-
     <div class="campo-slogan conteiner">
         <div class="alinhamento-conteudo-slogan row justify-content-center">
             <div class="conteudo-slogan col align-self-end">
@@ -71,7 +68,7 @@
         <div class="alinhamento-introducao-destinos-populares row">
             <div class="introducao-destinos-populares col-12 align-self-start">
                 <h2>
-                    Destinos mais requisitados por nossos clientes.
+                    Destinos mais requisitados por nossos clientes
                 </h2>
                 <h3>
                     Venha você também fazer parte desta jornada emocionante e memorável!!
@@ -79,33 +76,35 @@
             </div>
         </div>
 
-        <div class="destinos-populares-cont row align-items-center justify-content-center">
-            <div class="alinhamento-destpop-cont-text col-4 align-self-center">
+        <div class="destinos-populares-cont row align-items-center ">
+            <div class="alinhamento-destpop-cont-text col">
                 <img class="imagem-destinos-populares img-fluid" src="./img/home/imagem-1-campo-20.png" alt="praia-do-morro-branco">
-                <p>
+                <a href="#">
                     Praia do Morro Branco
                     <br>
                     Fortaleza-CE
-                </p>
+                </a>
             </div>
-            <div class="alinhamento-destpop-cont-text col-4 align-self-center">
+            <div class="alinhamento-destpop-cont-text col">
                 <img class="imagem-destinos-populares img-fluid" src="./img/home/imagem-2-campo-20.png" alt="lencois-maranheses">
-                <p>
+                <a href="#">
                     Lençois Maranhenses
                     <br>
                     Barreirinhas-MA
-                </p>
+                </a>
             </div>
-            <div class="alinhamento-destpop-cont-text col-4 align-self-center">
+            <div class="alinhamento-destpop-cont-text col">
                 <img class="imagem-destinos-populares img-fluid" src="./img/home/imagem-3-campo-20.png" alt="praia-do-espelho">
-                <p>
+                <a href="#">
                     Praia do Espelho
                     <br>
                     Porto Seguro-BA
-                </p>
+                </a>
             </div>
         </div>
     </div>
+
+
 
 
     <!--div de descrubra mais-->
@@ -128,11 +127,10 @@
             <div class="texto1-img1-descubra-mais col align-self-end">
                 <a href="#">
                     <h3 class="texto1-img1-campo3">
-                        DESTINOS <br>
-                        INTERNACIONAIS
+                        ACOMODAÇÕES
                     </h3>
                 </a>
-                <img class="imagem1-campo3 img-fluid" src="./img/home/img1-campo3.jpg" alt="torre-eiffel">
+                <img class="imagem1-campo3 img-fluid" src="./img/home/img1.campo3.png" alt="Quarto_de_hotel">
             </div>
 
             <div class="texto2-img2-descubra-mais col align-self-end">
@@ -147,8 +145,8 @@
             <div class="texto3-img3-descubra-mais col align-self-end">
                 <a href="#">
                     <h3 class="texto3-img3-campo3">
-                        DESTINOS <br>
-                        NACIONAIS
+                        PACOTES <br>
+                        TURÍSTICOS
                     </h3>
                 </a>
                 <img class="imagem3-campo3 img-fluid" src="./img/home/img3-campo3.jpg" alt="cristo-redentor">
@@ -165,11 +163,10 @@
     <div class="footer conteiner-fluid">
         <div class="alinhamento-cont-footer row align-items-center justify-content-center">
             <div class="links-menu-footer col-8 align-self-center">
-                <a href="#">HOME</a>
-                <a href="#">DESTINOS INTERNACIONAIS</a>
-                <a href="#">OFERTAS DE VOOS</a>
-                <a href="#">DESTINOS NACIONAIS</a>
-                <a href="#">ACOMODAÇÕES</a>
+                <a href="#">Home</a>
+                <a href="#">Acomodações</a>
+                <a href="#">Voos</a>
+                <a href="#">Pacotes Turísticos</a>
             </div>
         </div>
 

@@ -8,33 +8,57 @@ a{
 }
 
 /*nav bar--------------------------*/
-.nav-bar-home{
-    background:  #82A0EA;
+.ajust-navbar{
+    width: 100%;
+    padding: 0px;
+}
+.nav-bar{
+    background: #3F70B2;
     width: 100%;
     display: flex;
-    flex-direction: row;
-    margin-bottom: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    padding: 20px; /* Adicionado padding para espaçamento nas laterais */
+}
+.ajust-imagem-logo-nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
 }
 .imagem-logo-nav-bar{
-    width: 300px;
-    height: 79px;
+    width: 400px;
+    height: 100px;
 }
-.menu-home{
+.ajust-space-links{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.space-links{
+    display: flex;
+    justify-content: space-around; 
+}
+.links-menu {
     background-color: #CBDAFF;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
     width: auto;
     height: auto;
-    flex-grow: 0;
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: space-around;
-    padding: 5px 15px 5px 15px;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgb(41 44 96 / 63%);
+    padding: 7px;
+    margin: 0 10px; /* Adiciona um espaçamento entre os links */
 }
-.ajust-menu-home > a{
-    color: #000;
-    font-size: 15px;
-    font-weight: 400;
-}
+
+
+
+
 
 
 
@@ -61,6 +85,7 @@ a{
     letter-spacing: 0.11em;
     font-weight: 900;
     position: absolute;
+    text-shadow: 0 4px 6px rgb(41 44 96 / 89%);
     top: 360px;
     padding: 0px 20px 20px 40px;
 }
@@ -77,7 +102,7 @@ a{
 /*div destinos populares------------*/
 .destinos-populares{
     margin-top: 250px;
-    background-color: #abbffd6c;
+    background-color: #3f70b2b8;
     padding: 50px;
 }
 .alinhamento-introducao-destinos-populares{
@@ -88,26 +113,45 @@ a{
     padding: 0px 0px 0px 129px;
 }
 .introducao-destinos-populares > h2{
-    color: #000000;
+    color: #fff;
     text-align: left;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: 700;
 }
 .introducao-destinos-populares > h3{
-    color: #000000;
+    color: #fff;
     text-align: left;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 400;
 }
 /**/
 .destinos-populares-cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
     margin: 0px 129px 0px 129px;
 }
-.alinhamento-destpop-cont-text > p{
-    color: #000000;
+.alinhamento-destpop-cont-text{
+    /* background-color:rgba(255, 253, 202, 0.986); */
+    background-color: rgba(64, 102, 149, 0.773);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(41, 44, 96, 0.652);
+    margin: 10px; /* Adiciona margem entre as colunas */
+    flex: 1 1 30%; /* Define a largura das colunas */
+    max-width: 30%; /* Limita a largura máxima */
+}
+.alinhamento-destpop-cont-text > a{
+    color: #fff;
     text-align: left;
     font-size: 20px;
     font-weight: 400;
+    text-decoration: none;
     margin-top: 10px;
 }
 .imagem-destinos-populares{
@@ -259,7 +303,7 @@ a{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 .links-menu-footer > a{
     color: #000000;
