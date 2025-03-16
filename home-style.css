@@ -20,6 +20,7 @@ a{
     align-items: center;
     justify-content: center; 
     padding: 20px; /* Adicionado padding para espaçamento nas laterais */
+    height: 200px;
 }
 .ajust-imagem-logo-nav-bar{
     display: flex;
@@ -77,7 +78,7 @@ a{
     margin: 30px;
     padding: 0px;
 }
-.conteudo-slogan > h1{
+.text-slogan{
     color: #ffffff;
     text-align: left;
     font-size: 4rem;
@@ -86,7 +87,7 @@ a{
     font-weight: 900;
     position: absolute;
     text-shadow: 0 4px 6px rgb(41 44 96 / 89%);
-    top: 360px;
+    top: 380px;
     padding: 0px 20px 20px 40px;
 }
 .imagem-slogan{
@@ -336,3 +337,20 @@ a{
     font-weight: 400;
     margin: 0px;
 }
+
+
+
+
+
+
+
+/*--------------media query--------------------*/
+
+@media (max-width: 1191px) {
+    .text-slogan{
+        font-size: 2rem; 
+    }
+}
+
+
+
