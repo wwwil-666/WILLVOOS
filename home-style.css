@@ -203,8 +203,6 @@ a{
     margin: 0px;
 }
 .texto1-img1-descubra-mais{
-    margin-right: 20px;
-    margin-left: 30px;
     padding: 0px;
 }
 .texto1-img1-campo3{
@@ -223,8 +221,7 @@ a{
     padding: 0px;
 }
 .texto2-img2-descubra-mais{
-    margin-right: 30px;
-    margin-left: 30px;
+    margin: 0% 4%;
     padding: 0px;
 }
 .texto2-img2-campo3{
@@ -238,13 +235,11 @@ a{
 }
 .imagem2-campo3{
     border-radius: 20px 20px 0px 0px;
-    width: 435px;
-    height: 589px;
+    width: 323px;
+    height: 500px;
     padding: 0px;
 }
 .texto3-img3-descubra-mais{
-    margin-right: 30px;
-    margin-left: 30px;
     padding: 0px;
 }
 .texto3-img3-campo3{
@@ -303,6 +298,7 @@ a{
 .links-menu-footer{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
@@ -312,7 +308,7 @@ a{
     font-size: 16px;
     font-weight: 400;
     text-decoration: none;
-    margin: 0px 40px 0px 40px;
+    margin: 0px 40px 15px 40px;
 } 
 .icons-footer{
     display: flex;
@@ -346,11 +342,71 @@ a{
 
 /*--------------media query--------------------*/
 
-@media (max-width: 1191px) {
+@media (min-width: 992px) and (max-width: 1200px) {
     .text-slogan{
-        font-size: 2rem; 
+        font-size: 3.5rem; 
+        margin-top: 40px;
+    }
+    .destinos-populares-cont{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0px;
+    }
+    .texto1-img1-campo3{
+        font-size: 18px;
+    }
+    .texto2-img2-campo3{
+        font-size: 18px;
+    }
+    .texto3-img3-campo3{
+        font-size: 18px;
     }
 }
 
 
+@media (min-width: 768px) and (max-width: 992px){
+    .nav-bar{
+        height: 235px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .links-menu{
+        margin: 2px 0px 5px 0px;
+    }
+    .text-slogan{
+        font-size: 3rem; 
+        margin-top: 70px;
+    }
+    .introducao-destinos-populares{
+        padding: 0px 0px 0px 80px;
+    }
+    .destinos-populares-cont{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0px;
+    }
+    .alinhamento-texto-img-descubra-mais{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .texto1-img1-campo3{
+        font-size: 18px;
+    }
+    .texto2-img2-campo3{
+        font-size: 18px;
+    }
+    .texto2-img2-descubra-mais{
+        margin: 0px;
+    }
+    .texto3-img3-campo3{
+        font-size: 18px;
+    }
+}
 
